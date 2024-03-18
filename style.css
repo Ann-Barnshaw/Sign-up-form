@@ -7,11 +7,10 @@ table {
     border: 1px solid rgb(128, 128, 128);
     width: 440px;
     margin: 0 auto;
-    margin-top: 150px;
-    height: 550px;
+    margin-top: 100px;
+    height: 620px;
     border-collapse: collapse;
     color: #d2d636;
-    /* background-color: rgb(222, 135, 4);; */
 }
 .heading {
     background-color: rgb(222, 135, 4);
@@ -20,6 +19,7 @@ table {
     padding: 2px;
     font-weight: bolder;
     color: #d2d636;
+    padding-left: 10px;
 }
 tr {
     margin: 0px;
@@ -35,3 +35,40 @@ tr {
 .termsandconditions-data {
     padding-top: 5px;
 }
+.buttons {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    height: 55px;
+    background-color: rgb(222, 135, 4);
+}
+#submit {
+width: 85px;
+padding: 10px 20px;
+cursor: pointer;
+background-color: #62af5e;
+border: none;
+color: white;
+}
+#submit:hover {
+    background-color: #357e31;
+    font-weight: bold;
+    transition: 1.2s;
+    opacity: 0.8;
+}
+#cancel {
+    width: 85px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    background-color:#d9544f;
+    color: white;
+}
+#cancel:hover {
+    background-color: #b23833;
+    font-weight: bold;
+    transition: 1.2s;
+    opacity: 0.8;
+}
+
